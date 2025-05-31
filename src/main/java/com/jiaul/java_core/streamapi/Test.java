@@ -137,17 +137,17 @@ public class Test {
         boolean b2=personList.stream()
                 .allMatch(person -> person.getAge()>20);
 
-         /******************* 14. noneMatch(Predicate) *******************/
+         /******************* 15. noneMatch(Predicate) *******************/
         boolean b3=personList.stream()
                 .noneMatch(person -> person.getAge()==21);
 
-         /******************* 15. limit(max limit) *******************/
+         /******************* 16. limit(max limit) *******************/
         List<String> people12 = personList.stream()
                 .map(Person::getName)
                 .limit(5)
                 .collect(Collectors.toList());
 
-        /******************* 15. skip(number) *******************/
+        /******************* 17. skip(number) *******************/
         personList.stream()
                 .map(Person::getName)
                 .skip(5)

@@ -38,13 +38,14 @@ public class PersonDB {
         Person p2= new Person("name 2",30,"rangpur",40000,List.of(m1,m4));
         Person p3= new Person("name 3",20,"dinajpur",25000,List.of(m6));
         Person p4= new Person("name 4",18,"dhaka",18000,List.of(m3));
-        Person p5= new Person("name 5",28,"moymonshing",45000,List.of(m5));
+        Person p5= new Person("name 5",28,"mymensingh",45000,List.of(m5));
         Person p6= new Person("name 6",35,"rangpur",50000,List.of(m2,m6));
         Person p7= new Person("name 7",27,"dhaka",40000,List.of(m2));
         Person p8= new Person("name 8",32,"rangpur",50000,List.of(m2,m5));
-        Person p9= new Person("name 9",40,"gajipur",60000,List.of(m1,m2,m4,m5));
+        Person p9= new Person("name 9",40,"gazipur",60000,List.of(m1,m2,m4,m5));
         Person p10= new Person("name 10",22,"dhaka",28000,List.of(m5));
 
         return List.of(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10);
     }
 }
+
